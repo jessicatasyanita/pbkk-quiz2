@@ -23,7 +23,7 @@ import javax.annotation.security.PermitAll;
 @Component
 @Scope("prototype")
 @Route(value="", layout = MainLayout.class)
-@PageTitle("Contacts | Vaadin CRM")
+@PageTitle("Contacts | MyContact")
 @PermitAll
 public class ListView extends VerticalLayout {
     Grid<Contact> grid = new Grid<>(Contact.class);
