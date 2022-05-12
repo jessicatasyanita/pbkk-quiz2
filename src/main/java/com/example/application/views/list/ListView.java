@@ -22,7 +22,7 @@ import javax.annotation.security.PermitAll;
 
 @Component
 @Scope("prototype")
-@Route(value="", layout = MainLayout.class)
+@Route(value="List", layout = MainLayout.class)
 @PageTitle("Contacts | MyContact")
 @PermitAll
 public class ListView extends VerticalLayout {
